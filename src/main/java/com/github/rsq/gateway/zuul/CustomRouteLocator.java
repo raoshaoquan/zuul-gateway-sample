@@ -54,7 +54,7 @@ public class CustomRouteLocator extends SimpleRouteLocator implements Refreshabl
         ZuulRoute route1 = new ZuulRoute();
         route1.setId("1");
         route1.setPath("/search/**");
-        route1.setUrl("http://www.baidu.com/");
+        route1.setUrl("http://es.xxx.net/");
         route1.setRetryable(Boolean.FALSE);
         routes.put(route1.getPath(), route1);
 
